@@ -99,3 +99,7 @@ additive: implement `Backend` and register it in `BackendFor`.
 - [ ] S3-compatible storage and an IPFS-pinned public transcript.
 - [ ] A browser (wasm) participant client.
 - [ ] Additional curves (BN254, BLS12-377, BW6-761) through the `Backend` interface.
+
+## License
+
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full text.
