@@ -1,0 +1,22 @@
+# build output
+/bin/
+*.test
+
+# ceremony state + artifacts (never commit blobs or keys)
+/ceremony-state/
+*.bin
+*.key
+*.pub
+allow.txt
+
+# keep the keys dir layout out of git
+/keys/
+/state/
+
+# cross-compiled distribution binaries (rebuild via go build)
+/dist/
+
+# private development + operations material (kept locally, not published)
+/docs/
+/deploy/
+tokens.txt
